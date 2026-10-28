@@ -1,28 +1,22 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rounded&color=161B22&height=170&section=header&text=Nam%20Khanh&fontSize=56&fontColor=E6EDF3&fontAlignY=40&desc=Backend-focused%20Software%20Engineer%20%C2%B7%20Java%2FSpring%20Boot%20%C2%B7%20.NET%20%C2%B7%20RAG&descSize=18&descAlignY=68">
-  <img width="100%" alt="Nam Khanh. Backend-focused Software Engineer: Java/Spring Boot, .NET, RAG." src="https://capsule-render.vercel.app/api?type=rounded&color=F6F8FA&height=170&section=header&text=Nam%20Khanh&fontSize=56&fontColor=1F2328&fontAlignY=40&desc=Backend-focused%20Software%20Engineer%20%C2%B7%20Java%2FSpring%20Boot%20%C2%B7%20.NET%20%C2%B7%20RAG&descSize=18&descAlignY=68">
-</picture>
+<img src="assets/hero.svg" width="100%" alt="Nam Khanh, Backend Software Engineer: Java, Spring Boot, .NET, RAG. A red sun behind a torii gate over moving waves, with falling cherry blossoms.">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=40&lines=Backend+engineer+(Java+%C2%B7+.NET);Building+RAG+%26+LLM+features;Clean+Architecture%2C+CQRS%2C+tests;Currently+building+NoteMind">
-  <img alt="Backend engineer (Java, .NET). Building RAG and LLM features. Clean Architecture, CQRS, tests. Currently building NoteMind." src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=0969DA&center=true&vCenter=true&width=560&height=40&lines=Backend+engineer+(Java+%C2%B7+.NET);Building+RAG+%26+LLM+features;Clean+Architecture%2C+CQRS%2C+tests;Currently+building+NoteMind">
-</picture>
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+JP&weight=600&size=22&duration=3000&pause=1400&color=D9412B&center=true&vCenter=true&width=620&height=44&lines=%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2+%E3%83%BB+Java+%E3%83%BB+.NET;RAG%E3%83%BBLLM+%E6%A9%9F%E8%83%BD%E3%82%92%E9%96%8B%E7%99%BA%E4%B8%AD;%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3+%E3%83%BB+CQRS;NoteMind+%E3%82%92%E5%88%B6%E4%BD%9C%E4%B8%AD" alt="Backend engineer (Java, .NET). Building RAG and LLM features. Clean Architecture and CQRS. Currently building NoteMind.">
 
-<a href="mailto:khanhsteve21@gmail.com"><img alt="Email: khanhsteve21@gmail.com" src="https://img.shields.io/badge/Email-khanhsteve21%40gmail.com-0969DA?style=flat-square&logo=gmail&logoColor=white"></a>
+<a href="mailto:khanhsteve21@gmail.com"><img alt="Email: khanhsteve21@gmail.com" src="https://img.shields.io/badge/Email-khanhsteve21%40gmail.com-D9412B?style=flat-square&logo=gmail&logoColor=white"></a>
 <!-- TODO: LinkedIn. Replace YOUR-LINKEDIN in the next line, then remove the comment markers around it. -->
-<!-- <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img alt="LinkedIn profile" src="https://img.shields.io/badge/LinkedIn-Nam%20Khanh-0969DA?style=flat-square&logo=linkedin&logoColor=white"></a> -->
-
-<sub>Da Nang, Vietnam</sub>
+<!-- <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img alt="LinkedIn profile" src="https://img.shields.io/badge/LinkedIn-Nam%20Khanh-D9412B?style=flat-square&logo=linkedin&logoColor=white"></a> -->
 
 </div>
 
-## About
+<img src="assets/h-about.svg" alt="About me">
 
 Software Engineering graduate from FPT University Da Nang (October 2026). I work mostly on the backend, in Java/Spring Boot and C#/ASP.NET Core, with React on the front. My internship at FPT Software gave me hands-on experience with RAG and LLMs, and on my capstone I led a five-person Scrum team. I care about clean architecture, security, and code that is documented and tested.
 
-## Currently building: NoteMind
+<img src="assets/h-building.svg" alt="Currently building">
+
+### NoteMind
 
 An AI knowledge workspace. Import a YouTube video, audio or a document, and NoteMind transcribes it and writes a structured note in which **every claim cites the exact timestamp it came from**. On top of that note it adds mind maps, chat with your sources (RAG) and flashcards.
 
@@ -34,7 +28,7 @@ An AI knowledge workspace. Import a YouTube video, audio or a document, and Note
 <sub><i>Work in progress. Repo coming soon.</i></sub>
 <!-- TODO: link to the NoteMind repo once it is public -->
 
-## Featured projects
+<img src="assets/h-projects.svg" alt="Featured projects">
 
 ### OJT Hub: internship placement platform
 <sub>Capstone · Team leader · 2026</sub>
@@ -51,19 +45,19 @@ Commissioned by FPT University Da Nang to run the full internship placement cycl
 
 ### ExamBuddy: online exam preparation
 <sub>Academic project</sub>
-<!-- TODO: link to the ExamBuddy repo if it is public -->
+[View repo](https://github.com/khanhlamdev/Exambuddy)
 
 Teachers build question banks and mock exams; students take tests, track their progress and get AI explanations of the answers after each mock test. Role-based access for teachers and students.
 
 <sub><b>Stack:</b> Spring Boot (layered MVC) · Firebase · Docker</sub>
 
-## Experience
+<img src="assets/h-experience.svg" alt="Experience">
 
 **FPT Software** · Intern · May 2025 – Sep 2025<br>
 Two roles: Software Engineering Intern (F1.JAS), working on a RAG chatbot, and Data Engineering Intern, on an Oracle to SQL Server migration.
 
 <details>
-<summary>Details</summary>
+<summary>詳細 · Details</summary>
 <br>
 
 - **Software Engineering Intern (F1.JAS):** contributed to a document-research AI chatbot using RAG with the OpenAI API. Built the indexing pipeline in Python (chunking, embeddings stored in Pinecone) and worked on Q&A features and prompt refinement.
@@ -71,7 +65,7 @@ Two roles: Software Engineering Intern (F1.JAS), working on a RAG chatbot, and D
 
 </details>
 
-## Tech stack
+<img src="assets/h-stack.svg" alt="Tech stack">
 
 **Languages**<br>
 <picture>
@@ -107,7 +101,7 @@ Two roles: Software Engineering Intern (F1.JAS), working on a RAG chatbot, and D
 <sub>Docker Compose · Caddy · Jira · Hangfire · Informatica PowerCenter</sub>
 
 <details>
-<summary><b>Certifications</b></summary>
+<summary><b>資格 · Certifications</b></summary>
 <br>
 
 - Artificial Intelligence: an Overview Specialization, 2026
@@ -119,10 +113,12 @@ Two roles: Software Engineering Intern (F1.JAS), working on a RAG chatbot, and D
 
 </details>
 
----
+<br>
 
 <div align="center">
 
-Open to Backend / Fullstack Software Engineer roles. Feel free to reach out at [khanhsteve21@gmail.com](mailto:khanhsteve21@gmail.com).
+<img src="assets/footer.svg" width="100%" alt="Feel free to get in touch. Open to Backend and Fullstack Software Engineer roles.">
+
+<a href="mailto:khanhsteve21@gmail.com">khanhsteve21@gmail.com</a>
 
 </div>
