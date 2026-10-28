@@ -1,128 +1,191 @@
-<div align="center">
+from pathlib import Path
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rounded&color=161B22&height=170&section=header&text=Nam%20Khanh&fontSize=56&fontColor=E6EDF3&fontAlignY=40&desc=Backend-focused%20Software%20Engineer%20%C2%B7%20Java%2FSpring%20Boot%20%C2%B7%20.NET%20%C2%B7%20RAG&descSize=18&descAlignY=68">
-  <img width="100%" alt="Nam Khanh. Backend-focused Software Engineer: Java/Spring Boot, .NET, RAG." src="https://capsule-render.vercel.app/api?type=rounded&color=F6F8FA&height=170&section=header&text=Nam%20Khanh&fontSize=56&fontColor=1F2328&fontAlignY=40&desc=Backend-focused%20Software%20Engineer%20%C2%B7%20Java%2FSpring%20Boot%20%C2%B7%20.NET%20%C2%B7%20RAG&descSize=18&descAlignY=68">
-</picture>
+readme = r'''<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=40&lines=Backend+engineer+(Java+%C2%B7+.NET);Building+RAG+%26+LLM+features;Clean+Architecture%2C+CQRS%2C+tests;Currently+building+NoteMind">
-  <img alt="Backend engineer (Java, .NET). Building RAG and LLM features. Clean Architecture, CQRS, tests. Currently building NoteMind." src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=0969DA&center=true&vCenter=true&width=560&height=40&lines=Backend+engineer+(Java+%C2%B7+.NET);Building+RAG+%26+LLM+features;Clean+Architecture%2C+CQRS%2C+tests;Currently+building+NoteMind">
-</picture>
+<!-- Replace USERNAME with your GitHub username in the stats and contribution URLs below. -->
 
-<a href="mailto:khanhsteve21@gmail.com"><img alt="Email: khanhsteve21@gmail.com" src="https://img.shields.io/badge/Email-khanhsteve21%40gmail.com-0969DA?style=flat-square&logo=gmail&logoColor=white"></a>
-<!-- TODO: LinkedIn. Replace YOUR-LINKEDIN in the next line, then remove the comment markers around it. -->
-<!-- <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img alt="LinkedIn profile" src="https://img.shields.io/badge/LinkedIn-Nam%20Khanh-0969DA?style=flat-square&logo=linkedin&logoColor=white"></a> -->
+<a href="https://github.com/USERNAME">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&height=210&section=header&text=Nam%20Khanh&fontSize=64&fontColor=58A6FF&fontAlignY=38&desc=BACKEND%20ENGINEER%20%7C%20JAVA%20%7C%20.NET%20%7C%20AI%2FRAG&descSize=17&descAlignY=62&animation=fadeIn&color=0:0D1117,50:161B22,100:1F6FEB" alt="Nam Khanh — Backend Engineer, Java, .NET, AI/RAG" />
+</a>
 
-<sub>Da Nang, Vietnam</sub>
+<p>
+  <a href="mailto:khanhsteve21@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Contact%20me-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/LOCATION-Da%20Nang%2C%20Vietnam-0D1117?style=for-the-badge&logo=googlemaps&logoColor=58A6FF" alt="Da Nang, Vietnam" />
+  <img src="https://img.shields.io/badge/FOCUS-Backend%20%2B%20AI-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF" alt="Backend and AI" />
+</p>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=850&color=58A6FF&center=true&vCenter=true&width=700&height=45&lines=Designing+reliable+backend+systems;Building+RAG+%26+LLM-powered+features;Java+%2F+Spring+Boot+%7C+C%23+%2F+ASP.NET+Core;Clean+Architecture+%7C+Testing+%7C+CI%2FCD;Currently+building+NoteMind" alt="Animated introduction" />
+
+<br/>
+
+[About](#-about-me) · [Featured Projects](#-featured-projects) · [Tech Stack](#-tech-stack) · [Experience](#-experience) · [GitHub Activity](#-github-activity)
 
 </div>
-
-## About
-
-Software Engineering graduate from FPT University Da Nang (October 2026). I work mostly on the backend, in Java/Spring Boot and C#/ASP.NET Core, with React on the front. My internship at FPT Software gave me hands-on experience with RAG and LLMs, and on my capstone I led a five-person Scrum team. I care about clean architecture, security, and code that is documented and tested.
-
-## Currently building: NoteMind
-
-An AI knowledge workspace. Import a YouTube video, audio or a document, and NoteMind transcribes it and writes a structured note in which **every claim cites the exact timestamp it came from**. On top of that note it adds mind maps, chat with your sources (RAG) and flashcards.
-
-- **Done so far:** sign-up with email OTP verification (hashed codes, brute-force limits), workspace and folder management with tenant isolation, app shell UI
-- **In progress:** media ingestion pipeline (upload → job queue → transcription)
-
-<sub><b>Stack:</b> Java 21 · Spring Boot 3.5 · Spring Security (JWT) · PostgreSQL + pgvector · Flyway · Redis Streams · MinIO · React + Vite · Python worker (Whisper, bge-m3 embeddings) · Docker Compose · Testcontainers · ArchUnit</sub>
-
-<sub><i>Work in progress. Repo coming soon.</i></sub>
-<!-- TODO: link to the NoteMind repo once it is public -->
-
-## Featured projects
-
-### OJT Hub: internship placement platform
-<sub>Capstone · Team leader · 2026</sub>
-<!-- TODO: link to the OJT Hub repo if it is public -->
-
-Commissioned by FPT University Da Nang to run the full internship placement cycle for four roles: students, employers, university career-relations staff and admins. I led the five-person Scrum team (Jira, sprint planning, feature-folder codebase).
-
-- **Two-stage applications:** the university screens each CV before releasing it to the employer; job postings follow a state machine; data is isolated per semester
-- **Architecture:** Clean Architecture + CQRS (MediatR, FluentValidation), Hangfire jobs, Redis cache and SignalR backplane, realtime chat and notifications over SignalR
-- **AI:** Google Gemini drafts job descriptions and scores student–job matches; PDF CV parsing
-- **Delivery:** PostgreSQL schema design, Docker Compose behind Caddy, GitHub Actions CI/CD, Serilog, Prometheus
-
-<sub><b>Stack:</b> ASP.NET Core 8 · React (TypeScript) · PostgreSQL · Redis · SignalR · Hangfire · Google Gemini · Docker · GitHub Actions</sub>
-
-### ExamBuddy: online exam preparation
-<sub>Academic project</sub>
-<!-- TODO: link to the ExamBuddy repo if it is public -->
-
-Teachers build question banks and mock exams; students take tests, track their progress and get AI explanations of the answers after each mock test. Role-based access for teachers and students.
-
-<sub><b>Stack:</b> Spring Boot (layered MVC) · Firebase · Docker</sub>
-
-## Experience
-
-**FPT Software** · Intern · May 2025 – Sep 2025<br>
-Two roles: Software Engineering Intern (F1.JAS), working on a RAG chatbot, and Data Engineering Intern, on an Oracle to SQL Server migration.
-
-<details>
-<summary>Details</summary>
-<br>
-
-- **Software Engineering Intern (F1.JAS):** contributed to a document-research AI chatbot using RAG with the OpenAI API. Built the indexing pipeline in Python (chunking, embeddings stored in Pinecone) and worked on Q&A features and prompt refinement.
-- **Data Engineering Intern:** migrated tables from Oracle to SQL Server, automated with Informatica PowerCenter (ETL mappings and workflows), and validated the results by reconciling row counts and sample records.
-
-</details>
-
-## Tech stack
-
-**Languages**<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,cs,ts,js,py,c&theme=dark">
-  <img alt="Java, C#, TypeScript, JavaScript, Python, C" src="https://skillicons.dev/icons?i=java,cs,ts,js,py,c&theme=light">
-</picture>
-
-**Backend and frontend**<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=spring,dotnet,react,vite&theme=dark">
-  <img alt="Spring Boot, .NET, React, Vite" src="https://skillicons.dev/icons?i=spring,dotnet,react,vite&theme=light">
-</picture><br>
-<sub>Spring Boot · ASP.NET Core 8 · EF Core · JSP/Servlet · React · Vite</sub>
-
-**Data**<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,mysql,redis,firebase&theme=dark">
-  <img alt="PostgreSQL, MySQL, Redis, Firebase" src="https://skillicons.dev/icons?i=postgres,mysql,redis,firebase&theme=light">
-</picture><br>
-<sub>PostgreSQL (+ pgvector) · SQL Server · MySQL · Redis · Firebase</sub>
-
-**AI / LLM**<br>
-<sub>RAG · Embeddings · OpenAI API · Google Gemini API · Pinecone · Prompt engineering · AI agents</sub>
-
-**Architecture**<br>
-<sub>Clean Architecture · CQRS · REST APIs · MVC</sub>
-
-**DevOps and tools**<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,githubactions,linux,git,idea,vscode&theme=dark">
-  <img alt="Docker, GitHub Actions, Linux, Git, IntelliJ IDEA, VS Code" src="https://skillicons.dev/icons?i=docker,githubactions,linux,git,idea,vscode&theme=light">
-</picture><br>
-<sub>Docker Compose · Caddy · Jira · Hangfire · Informatica PowerCenter</sub>
-
-<details>
-<summary><b>Certifications</b></summary>
-<br>
-
-- Artificial Intelligence: an Overview Specialization, 2026
-- User Experience Research and Design Specialization, 2026
-- Project Management Principles and Practices, 2025
-- Software Development Lifecycle, 2024
-- Computer Communications Specialization, 2024
-- Web Design for Everybody: Basics of Web Development & Coding, 2023
-
-</details>
 
 ---
 
+## 👨‍💻 About Me
+
+I'm a Software Engineering graduate from **FPT University, Da Nang** (October 2026), focused on backend engineering and AI-powered applications.
+
+- 🧱 **Backend:** Java, Spring Boot, C#, ASP.NET Core, REST APIs
+- 🧠 **Applied AI:** RAG pipelines, embeddings, LLM integrations, source-grounded answers
+- 🏗️ **Engineering:** Clean Architecture, CQRS, validation, security, automated testing
+- 🚀 **Delivery:** Docker, GitHub Actions, database migrations, observability
+- 🤝 **Teamwork:** Led a five-person Scrum capstone team using Jira and sprint planning
+
+I enjoy turning complex requirements into maintainable services—with clear boundaries, secure data access, useful tests, and deployment workflows that can be repeated.
+
+> **Engineering mindset:** ship useful features, measure what matters, and keep the system understandable.
+
+## 🚧 Currently Building — NoteMind
+
+**NoteMind is an AI knowledge workspace** that turns videos, audio, and documents into structured, source-grounded learning materials.
+
+| Capability | What it does |
+|---|---|
+| 🎧 Media ingestion | Import media and process it through an asynchronous pipeline |
+| 📝 Timestamped notes | Generate structured notes with claims linked to exact source timestamps |
+| 🔎 Chat with sources | Retrieve relevant passages and answer with source context using RAG |
+| 🧠 Learning tools | Generate mind maps and flashcards from source material |
+
+**Progress**
+- ✅ Email OTP sign-up with hashed codes and brute-force limits
+- ✅ Workspace and folder management with tenant isolation
+- ✅ Initial application shell
+- 🛠️ Media ingestion: upload → queued job → transcription
+
+**Architecture & stack**
+
+`React + Vite` → `Java 21 / Spring Boot 3.5` → `PostgreSQL + pgvector`  
+`Redis Streams` · `MinIO` · `Python worker (Whisper, bge-m3)` · `Docker Compose`  
+`Spring Security (JWT)` · `Flyway` · `Testcontainers` · `ArchUnit`
+
+<sub>Work in progress — repository link will be added when it is public.</sub>
+
+## 🌟 Featured Projects
+
+### 01 / OJT Hub — Internship Placement Platform
+<sub><b>Capstone · Team Lead · 2026</b></sub>
+
+A platform commissioned by FPT University Da Nang to manage internship placement across **students, employers, career-relations staff, and administrators**.
+
+- 🔄 Two-stage applications: university CV screening before employer review
+- 🗂️ Semester-based data separation and job-posting state transitions
+- 🧱 Clean Architecture + CQRS with MediatR and FluentValidation
+- 🤖 Gemini-assisted job description drafting, student–job matching, and PDF CV parsing
+- 💬 Real-time chat and notifications with SignalR
+- ⚙️ Hangfire background jobs, Redis caching, PostgreSQL, and Serilog
+- 🚢 Docker Compose behind Caddy; GitHub Actions CI/CD; Prometheus metrics
+
+**Stack:** `ASP.NET Core 8` · `React / TypeScript` · `PostgreSQL` · `Redis` · `SignalR` · `Hangfire` · `Gemini API` · `Docker` · `GitHub Actions`
+
+<sub>Repository: add link when public.</sub>
+
+### 02 / ExamBuddy — Online Exam Preparation
+<sub><b>Academic Project</b></sub>
+
+An exam-preparation app where teachers manage question banks and mock exams, while students take tests, track progress, and receive AI-generated explanations after each mock exam.
+
+- 🧑‍🏫 Role-based workflows for teachers and students
+- 📊 Practice tests and progress tracking
+- 💡 AI-assisted explanations for learning from mistakes
+
+**Stack:** `Spring Boot` · `Layered MVC` · `Firebase` · `Docker`
+
+<sub>Repository: add link when public.</sub>
+
+### 03 / RAG Research Chatbot — FPT Software
+<sub><b>Software Engineering Intern · F1.JAS</b></sub>
+
+Contributed to a document-research chatbot using retrieval-augmented generation.
+
+- 📚 Built parts of a Python indexing pipeline for document chunking and embeddings
+- 🔍 Stored vectors in Pinecone to retrieve relevant document passages
+- 💬 Contributed to question-answering features and prompt refinement
+
+**Stack:** `Python` · `OpenAI API` · `RAG` · `Embeddings` · `Pinecone`
+
+## 🧰 Tech Stack
+
 <div align="center">
 
-Open to Backend / Fullstack Software Engineer roles. Feel free to reach out at [khanhsteve21@gmail.com](mailto:khanhsteve21@gmail.com).
+### Backend & Languages
+<img src="https://skillicons.dev/icons?i=java,spring,cs,dotnet,python,ts,js&perline=7&theme=dark" alt="Java, Spring, C sharp, .NET, Python, TypeScript, JavaScript" />
+
+### Frontend
+<img src="https://skillicons.dev/icons?i=react,vite,html,css&perline=7&theme=dark" alt="React, Vite, HTML, CSS" />
+
+### Databases & Messaging
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,firebase&perline=7&theme=dark" alt="PostgreSQL, MySQL, Redis, Firebase" />
+
+### DevOps & Developer Tools
+<img src="https://skillicons.dev/icons?i=docker,githubactions,linux,git,github,idea,vscode&perline=7&theme=dark" alt="Docker, GitHub Actions, Linux, Git, GitHub, IntelliJ IDEA, VS Code" />
 
 </div>
+
+<details>
+<summary><b>More about my toolkit</b></summary>
+
+- **Backend:** Spring Boot, ASP.NET Core, EF Core, Spring Security, REST APIs, MVC
+- **Architecture:** Clean Architecture, CQRS, layered architecture, background jobs
+- **AI / LLM:** RAG, embeddings, OpenAI API, Google Gemini API, prompt engineering, AI agents
+- **Data:** PostgreSQL, pgvector, SQL Server, MySQL, Redis, Firebase, Pinecone
+- **Quality:** JUnit, Mockito, Testcontainers, ArchUnit, FluentValidation
+- **Infrastructure:** Docker Compose, Caddy, GitHub Actions, Prometheus, Serilog
+- **Workflow:** Git, Jira, Scrum, sprint planning, code reviews
+
+</details>
+
+## 💼 Experience
+
+### FPT Software — Intern
+<sub>May 2025 – September 2025</sub>
+
+**Software Engineering Intern — F1.JAS**
+- Contributed to a RAG chatbot for document research using the OpenAI API.
+- Worked on Python document indexing, chunking, embedding storage in Pinecone, Q&A, and prompt refinement.
+
+**Data Engineering Intern**
+- Supported data migration from Oracle to SQL Server.
+- Used Informatica PowerCenter for ETL mappings and workflows.
+- Validated migration results by reconciling row counts and sampling records.
+
+## 📊 GitHub Activity
+
+<!-- Replace USERNAME with your actual GitHub username. These cards use public third-party services and may occasionally be unavailable. -->
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&include_all_commits=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&hide_border=true&theme=github_dark&langs_count=8" alt="Top languages" />
+  <br/>
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=USERNAME&bg_color=0d1117&color=58a6ff&line=1f6feb&point=79c0ff&area=true&hide_border=true" alt="Contribution activity graph" />
+</div>
+
+## 🎓 Certifications
+
+- Artificial Intelligence: An Overview Specialization — 2026
+- User Experience Research and Design Specialization — 2026
+- Project Management Principles and Practices — 2025
+- Software Development Lifecycle — 2024
+- Computer Communications Specialization — 2024
+- Web Design for Everybody: Basics of Web Development & Coding — 2023
+
+## 🤝 Let's Connect
+
+I'm open to **Backend Engineer / Software Engineer / Full-stack opportunities**, especially roles involving Java/Spring Boot, .NET, and AI-powered products.
+
+<div align="center">
+
+<a href="mailto:khanhsteve21@gmail.com">
+  <img src="https://img.shields.io/badge/Let's%20talk-khanhsteve21%40gmail.com-1F6FEB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nam Khanh" />
+</a>
+
+<br/><br/>
+<sub>Built with curiosity, clean code, and a little ☕.</sub>
+
+</div>
+'''
+path = Path("/mnt/data/README_GitHub_Nam_Khanh.md")
+path.write_text(readme, encoding="utf-8")
+print(f"Created: {path}")
